@@ -19,7 +19,7 @@ public class Continent {
             if (countries.get(i).countriesAndTerritories.equals(countriesAndTerritories)){
                 doesExist= true;
                 index = i;
-
+                break;
             }else {
                 doesExist = false;
 
